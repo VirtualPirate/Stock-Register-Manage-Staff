@@ -14,11 +14,11 @@ function App() {
     <>
       <AddStaffModal />
       <EditStaffModal />
+
       <SideMenu />
       <TopNav />
       <StaffManage>
         <StaffList />
-        {/* <AddStaff /> */}
       </StaffManage>
     </>
   );
