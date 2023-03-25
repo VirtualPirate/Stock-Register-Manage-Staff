@@ -1,0 +1,30 @@
+.side_menu {
+  height: 120%;
+  /* width: 90px; */
+  max-width: 150px;
+  background-color: #0f0e20;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  gap: 70px;
+
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 10;
+}
+
+.nav_items {
+  display: flex;
+  flex-direction: column;
+  /* width: 90px; */
+
+  color: #ab8484;
+  gap: 20px;
+
+  list-style: none;
+
+  padding: 1rem;
+  font-weight: 700;
+}

@@ -1,0 +1,11 @@
+.edit_staff_dialog {
+  margin: auto;
+  /* padding: 0; */
+  border: 0;
+
+  border-radius: 5px;
+  background-color: transparent;
+
+  justify-content: center;
+  align-items: center;
+}

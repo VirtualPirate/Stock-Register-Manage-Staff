@@ -1,0 +1,56 @@
+.list_box {
+  margin: 1rem;
+  /* font-size: 0.9rem; */
+}
+
+.staff_table {
+  display: grid;
+  grid-template-columns: 2fr 2fr 10fr;
+
+  justify-content: center;
+  background-color: #f0f1f1;
+
+  font-weight: 500;
+}
+
+.staff_table span {
+  padding: 0.5rem 1rem;
+}
+
+.staff_values {
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr 8fr;
+
+  justify-content: center;
+  align-content: center;
+  background-color: white;
+
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #e0e0e0;
+}
+.staff_values span {
+  padding: 0.5rem 1rem;
+}
+
+.staff_values:hover .action_buttons {
+  visibility: visible;
+}
+
+.action_buttons {
+  visibility: hidden;
+  display: flex;
+  gap: 0.5rem;
+  justify-self: self-end;
+  margin-right: 2rem;
+}
+
+.action_buttons button {
+  border: 1px solid #000;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+}
+
+.delete_button {
+  border-color: #ff0202 !important;
+  color: #ff0202;
+}
